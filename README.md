@@ -14,6 +14,24 @@ This template comes pre-packed with
 - [unplugin-vue-components](https://github.com/unplugin/unplugin-vue-components) for auto imported components
 - [vite-plugin-vue-layouts](https://github.com/JohnCampionJr/vite-plugin-vue-layouts) for route based layouts
 
+## CI & CD
+
+A CI pipeline for Github is configured in `.github/workflows/ci.yml`. On push it will run `typecheck`, `lint`, `build` as well as `unit` and `e2e` test.
+
+A Dockerfile is present, too. The project can be packaged as a docker image with
+
+```sh
+docker build -t vue3-starter .
+```
+
+and run with
+
+```sh
+docker run -p 80:80 vue3-starter
+```
+
+which will start a nginx container that serves the application at [localhost:80](http://localhost:80)
+
 ## Requirements
 
 - [Node.js](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
