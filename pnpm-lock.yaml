@@ -17,7 +17,7 @@ dependencies:
 
 devDependencies:
   '@antfu/eslint-config':
-    specifier: ^2.4.5
+    specifier: ^2.4.3
     version: 2.4.5(@vue/compiler-sfc@3.3.11)(eslint@8.55.0)(typescript@5.3.3)(vitest@1.0.4)
   '@vitejs/plugin-vue':
     specifier: ^4.5.2
