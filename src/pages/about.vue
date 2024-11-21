@@ -3,7 +3,7 @@
 </template>
 
 <route lang="yaml">
-  meta:
-    title: About
-    layout: blank
+meta:
+  title: About
+  layout: blank
 </route>

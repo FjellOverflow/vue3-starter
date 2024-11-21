@@ -7,7 +7,7 @@ const route = useRoute()
 <template>
   <div>
     <a href="https://github.com/FjellOverflow" target="_blank">
-      <img src="/fjelloverflow.svg" class="logo" alt="FjellOverflow logo">
+      <img src="/fjelloverflow.svg" class="logo" alt="FjellOverflow logo" />
     </a>
   </div>
   <h1>{{ route.meta.title }}</h1>
@@ -31,6 +31,6 @@ const route = useRoute()
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #81A1C1);
+  filter: drop-shadow(0 0 2em #81a1c1);
 }
 </style>

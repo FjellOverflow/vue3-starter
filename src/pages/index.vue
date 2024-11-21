@@ -3,6 +3,6 @@
 </template>
 
 <route lang="yaml">
-  meta:
-    title: vue3-starter
+meta:
+  title: vue3-starter
 </route>
