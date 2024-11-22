@@ -4,8 +4,8 @@ const route = useRoute()
 
 <template>
   <div>
-    <a href="https://github.com/FjellOverflow" target="_blank">
-      <img src="/fjelloverflow.svg" class="logo" alt="FjellOverflow logo" />
+    <a href="https://github.com/FjellOverflow/vue3-starter" target="_blank">
+      <img src="@/assets/logo.svg" class="logo" alt="The Vue logo in gray/blue color" />
     </a>
   </div>
   <h1>{{ route.meta.title }}</h1>
