@@ -1,5 +1,5 @@
 {
   "Hello, world!": "Hallo, verden!",
-  "Change language": "Skifte språket",
-  "vue3-starter is a minimal opinionated template for Vue3 projects.": "vue3-starter er en minimalistisk, men meningsfull mal for Vue3-prosjekter"
+  "Switch language": "Endre språk",
+  "vue3-starter is a minimal template for new Vue3 projects.": "vue3-starter er en enkel mal for å starte nye Vue3-prosjekter."
 }

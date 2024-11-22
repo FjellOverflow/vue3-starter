@@ -1,5 +1,6 @@
 {
   "name": "vue3-starter",
+  "description": "vue3-starter is a minimal template for new Vue3 projects",
   "type": "module",
   "version": "0.0.1",
   "private": true,

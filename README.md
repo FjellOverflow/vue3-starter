@@ -1,6 +1,6 @@
 # vue3-starter
 
-A minimal starter for a Vue3 project.
+A minimal template for new Vue3 projects.
 
 ## Features
 
@@ -48,15 +48,15 @@ cd vue3-starter
 pnpm i
 ```
 
-In VSCode, go to ***Extensions***, type `@recommended` and install recommended extensions.
+In VSCode, go to **_Extensions_**, type `@recommended` and install recommended extensions.
 
 ## Commands
 
 Called with `pnpm run <command>`
 
 | command     | effect                             |
-|-------------|------------------------------------|
-| dev         | starts hot-module-reload server     |
+| ----------- | ---------------------------------- |
+| dev         | starts hot-module-reload server    |
 | build       | builds for production              |
 | preview     | serves the build app for preview   |
 | test:unit   | runs unit tests with vitest        |

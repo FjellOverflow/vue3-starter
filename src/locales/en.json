@@ -1,5 +1,5 @@
 {
   "Hello, world!": "Hello, world!",
-  "Change language": "Change language",
-  "vue3-starter is a minimal opinionated template for Vue3 projects.": "vue3-starter is a minimal opinionated template for Vue3 projects."
+  "Switch language": "Switch language",
+  "vue3-starter is a minimal template for new Vue3 projects.": "vue3-starter is a minimal template for new Vue3 projects."
 }
