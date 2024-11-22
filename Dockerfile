@@ -1,16 +1,15 @@
-FROM node:18 AS build
+FROM oven/bun:1 AS build
 
 WORKDIR /app
-RUN corepack enable
 
 COPY package.json .
-COPY pnpm-lock.yaml .
+COPY bun.lockb .
 
-RUN pnpm install
+RUN bun install --production --frozen-lockfile
 
 COPY . .
 
-RUN pnpm build
+RUN bun run build-only
 
 FROM nginx:latest
 
