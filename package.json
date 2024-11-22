@@ -2,7 +2,7 @@
   "name": "vue3-starter",
   "description": "vue3-starter is a minimal template for new Vue3 projects",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "author": "FjellOverflow",
   "license": "GPL-3.0-only",
