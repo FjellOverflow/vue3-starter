@@ -22,7 +22,8 @@
     "build-only": "vite build",
     "typecheck": "vue-tsc --build --force",
     "lint": "eslint . --fix",
-    "format": "prettier --write src/"
+    "format": "prettier --write src/",
+    "release": "eslint . && prettier --check src && commit-and-tag-version --sign"
   },
   "dependencies": {
     "vue": "^3.5.13",
@@ -39,6 +40,7 @@
     "@vue/eslint-config-typescript": "^14.3.0",
     "@vue/test-utils": "^2.4.6",
     "@vue/tsconfig": "^0.7.0",
+    "commit-and-tag-version": "^12.5.0",
     "cypress": "^14.0.0",
     "eslint": "^9.19.0",
     "eslint-plugin-cypress": "^4.1.0",
