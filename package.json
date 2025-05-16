@@ -26,14 +26,14 @@
     "release": "eslint . && prettier --check src && commit-and-tag-version --sign"
   },
   "dependencies": {
-    "vue": "^3.5.13",
+    "vue": "^3.5.14",
     "vue-i18n": "^11.1.3",
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
     "@tsconfig/node22": "^22.0.1",
     "@types/jsdom": "^21.1.7",
-    "@types/node": "^22.15.17",
+    "@types/node": "^22.15.18",
     "@vitejs/plugin-vue": "^5.2.4",
     "@vitest/eslint-plugin": "1.1.24",
     "@vue/eslint-config-prettier": "^10.2.0",
@@ -48,7 +48,7 @@
     "jsdom": "^26.1.0",
     "npm-run-all2": "^8.0.1",
     "prettier": "^3.5.3",
-    "start-server-and-test": "^2.0.11",
+    "start-server-and-test": "^2.0.12",
     "typescript": "~5.8.3",
     "unplugin-auto-import": "^19.2.0",
     "unplugin-vue-components": "^28.5.0",
