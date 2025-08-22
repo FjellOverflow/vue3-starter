@@ -5,8 +5,9 @@ const { availableLocales, locale } = useI18n()
 
 function toggleLanguage() {
   const currentIndex = availableLocales.indexOf(locale.value)
-  const newIndex = (currentIndex + 1) % availableLocales.length
-  locale.value = availableLocales[newIndex]
+  const newLocale = availableLocales[(currentIndex + 1) % availableLocales.length]
+
+  if (newLocale) locale.value = newLocale
 }
 </script>
 
