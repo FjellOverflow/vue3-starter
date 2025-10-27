@@ -7,11 +7,11 @@ import i18n from '@/plugins/i18n'
 describe('renders HelloWorld', () => {
   it('renders properly', () => {
     const wrapper = mount(HelloWorld, {
-      props: { msg: 'Hello, World!' },
+      props: { msg: 'Hello, world!' },
       global: {
         plugins: [i18n],
       },
     })
-    expect(wrapper.text()).toContain('Hello, World!')
+    expect(wrapper.text()).toContain('Hello, world!')
   })
 })
