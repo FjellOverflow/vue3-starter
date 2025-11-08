@@ -17,9 +17,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/package-json/v/FjellOverflow/vue3-starter?label=Version&color=success"/>
+  <img src="https://img.shields.io/github/package-json/v/FjellOverflow/vue3-starter?label=Version"/>
   &ensp;
-  <img src="https://img.shields.io/github/license/FjellOverflow/vue3-starter?label=License&color=success"/>
+  <img src="https://img.shields.io/github/license/FjellOverflow/vue3-starter?label=License"/>
   &ensp;
   <img src="https://img.shields.io/github/actions/workflow/status/FjellOverflow/vue3-starter/ci.yaml?branch=main&label=CI"/>
 </p>
