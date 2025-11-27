@@ -1,19 +1,9 @@
-<p align="center">
-  <a href="https://github.com/FjellOverflow/vue3-starter">
-    <img alt="logo" src="./public/favicon.svg" height="64">
-  </a>
-</p>
-
 <h1 align="center">
-  <a href="https://github.com/FjellOverflow/vue3-starter">vue3-starter</a>
+  Vue3 Starter
 </h1>
 
 <p align="center">
   A minimal template for new Vue3 projects
-</p>
-
-<p align="center">
-  <img src="./public/preview.png" width="85%"/>
 </p>
 
 <p align="center">
