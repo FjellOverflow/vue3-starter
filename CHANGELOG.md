@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.0.1](https://github.com/FjellOverflow/vue3-starter/compare/v1.0.0...v1.0.1) (2025-12-20)
+
+
+### Bug Fixes
+
+* add `cypress` to trusted dependencies to enable `postinstall script` execution ([bc43212](https://github.com/FjellOverflow/vue3-starter/commit/bc43212157cd08aa93854f56747d21a78d0a0524))
+
 ## [1.0.0](https://github.com/FjellOverflow/vue3-starter/compare/v0.0.4...v1.0.0) (2025-11-10)
 
 
