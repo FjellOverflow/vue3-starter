@@ -15,11 +15,11 @@
 
 a {
   font-weight: 500;
-  color: #81a1c1;
+  color: #00bd7e;
   text-decoration: inherit;
 }
 a:hover {
-  color: #8fbcbb;
+  color: #008257;
 }
 
 body {
@@ -47,7 +47,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #5e81ac;
+  border-color: #008257;
 }
 button:focus,
 button:focus-visible {
@@ -71,17 +71,4 @@ button:focus-visible {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #5e81ac;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #8fbcbb;
-  }
-  button {
-    background-color: #81a1c1;
-  }
 }
