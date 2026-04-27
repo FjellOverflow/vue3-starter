@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.0.2](https://github.com/FjellOverflow/vue3-starter/compare/v1.0.1...v1.0.2) (2026-04-27)
+
+
+### Bug Fixes
+
+* typos in translations ([b79b83c](https://github.com/FjellOverflow/vue3-starter/commit/b79b83ca0822c243d443e23c8c232c8f349e3529))
+
 ## [1.0.1](https://github.com/FjellOverflow/vue3-starter/compare/v1.0.0...v1.0.1) (2025-12-20)
 
 
