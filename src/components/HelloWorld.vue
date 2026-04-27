@@ -15,5 +15,5 @@ function toggleLanguage() {
   <button type="button" @click="toggleLanguage">
     {{ $t('Switch language') }}
   </button>
-  <h3>{{ $t(msg) }}</h3>
+  <h3>{{ msg }}</h3>
 </template>

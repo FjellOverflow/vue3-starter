@@ -1,5 +1,5 @@
 <template>
-  <HelloWorld msg="vue3-starter is a minimal template for new Vue3 projects." />
+  <HelloWorld :msg="$t('vue3-starter is a minimal template for new Vue3 projects.')" />
 </template>
 
 <route lang="yaml">

@@ -1,5 +1,5 @@
 <template>
-  <HelloWorld msg="Hello, world!" />
+  <HelloWorld :msg="$t('Hello, world!')" />
 </template>
 
 <route lang="yaml">
