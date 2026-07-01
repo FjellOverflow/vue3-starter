@@ -24,7 +24,7 @@
 
 ## Features
 
-- 🪧 File-based routing ([vue-router](https://github.com/vuejs/router), [plugin](https://github.com/posva/unplugin-vue-router))
+- 🪧 File-based routing ([vue-router](https://github.com/vuejs/router))
 - 🖼️ Page layouts ([plugin](https://github.com/johncampionjr/vite-plugin-vue-layouts))
 - 🌎 Internationalization ([vue-i18n](https://github.com/intlify/vue-i18n))
 - 🔄 Auto imports ([plugin](https://github.com/unplugin/unplugin-auto-import), [plugin](https://github.com/unplugin/unplugin-vue-components))
